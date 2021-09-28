@@ -999,6 +999,12 @@ section {
 /*--------------------------------------------------------------
 # Contact Me
 --------------------------------------------------------------*/
+.error-form{
+  font-size: 13px;
+  color:red;
+  font-style: italic;
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;

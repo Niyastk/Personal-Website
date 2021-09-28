@@ -1,7 +1,7 @@
-$('#name-error-message').hide()
-$('#email-error-message').hide()
-$('#subject-error-message').hide()
-$('#message-error-message').hide()
+// $('#name-error-message').hide()
+// $('#email-error-message').hide()
+// $('#subject-error-message').hide()
+// $('#message-error-message').hide()
 
 var error_name = false
 var error_email = false
