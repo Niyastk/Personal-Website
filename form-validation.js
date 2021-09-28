@@ -30,10 +30,11 @@ function check_name () {
 
   if (content.test(name) && name !== '') {
     $('#name_error_message').hide()
+    $('#name').css('border', '')
   } else {
     $('#name-error-message').html('Only Characters are allowed')
     $('#name-error-message').show()
-    $('#name').css('border-bottom', '2px solid #F90A0A')
+    $('#name').css('border', '1px solid #F90A0A')
     error_name = true
   }
 }
@@ -43,10 +44,11 @@ function check_email () {
   var email = $('#email').val()
   if (content.test(email) && email !== '') {
     $('#email-error-message').hide()
+    $('#email').css('border', '')
   } else {
     $('#email-error-message').html('Enter a Valid Email')
     $('#email-error-message').show()
-    $('#email').css('border-bottom', '2px solid #F90A0A')
+    $('#email').css('border', '1px solid #F90A0A')
     error_email = true
   }
 }
@@ -55,10 +57,11 @@ function check_subject () {
   var subject = $('#subject').val()
   if (subject !== '') {
     $('#subject-error-message').hide()
+    $('#subject').css('border', '')
   } else {
     $('#subject-error-message').html('Type a Subject')
     $('#subject-error-message').show()
-    $('#subject').css('border-bottom', '2px solid #F90A0A')
+    $('#subject').css('border', '1px solid #F90A0A')
     error_subject = true
   }
 }
@@ -66,10 +69,11 @@ function check_message () {
   var message = $('#subject').val()
   if (message !== '') {
     $('#message-error-message').hide()
+    $('#message').css('border', '')
   } else {
     $('#message-error-message').html('Type a Message')
     $('#message-error-message').show()
-    $('#message').css('border-bottom', '2px solid #F90A0A')
+    $('#message').css('border', '1px solid #F90A0A')
     error_subject = true
   }
 }
